@@ -101,7 +101,7 @@ FROM Amizades
 WHERE data_amizade >= CURDATE() - INTERVAL 30 DAY;
 
 
--- Forneça informações detalhadas sobre um usuário chamado 'AnimeLover', incluindo suas postagens e amizades.
+-- Forneça informações detalhadas sobre um usuário chamado 'Maria', incluindo suas postagens e amizades.
 SELECT
     u.nome,
     p.texto AS postagem,
